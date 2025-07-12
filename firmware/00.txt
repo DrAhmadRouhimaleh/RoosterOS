@@ -1,9 +1,0 @@
-rooster-os/
-└── arch/
-    └── x86/
-        └── firmware/                # blobs + Python helpers
-            ├── uefi_blob.bin        # raw UEFI firmware volume
-            ├── parse_uefi.py        # extract files & sections
-            ├── firmware_utils.py    # library for FV/FFS/Section parsing
-            ├── embed_firmware.py    # generate C header from blob
-            └── README.md            # usage & dependencies
