@@ -1,0 +1,10 @@
+edition      = "low"
+arch         = "x86"
+ram_min_mb   = 64
+ram_max_mb   = 512
+cpu_min_mhz  = 100
+cpu_max_mhz  = 1000
+gfx_min      = "SVGA 800x600"
+disk_min_gb  = 2
+internet     = true
+packages     = ["base", "gui-light", "pkgmgr"]
