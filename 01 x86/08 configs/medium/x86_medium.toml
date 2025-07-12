@@ -1,0 +1,9 @@
+edition      = "medium"
+arch         = "x86"
+ram_min_mb   = 1024
+ram_max_mb   = 2048
+cpu_min_mhz  = 1000
+gfx_min      = "DirectX9 WDDM"
+disk_min_gb  = 16
+internet     = true
+packages     = ["base", "desktop", "net-utils", "pkgmgr"]

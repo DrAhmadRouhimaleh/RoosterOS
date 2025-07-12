@@ -1,0 +1,9 @@
+rooster-os/
+└── arch/
+    ├── x86/
+    │   ├── libc/
+    │   │   └── arch_specific/
+    │   │       ├── memcpy.S
+    │   │       ├── memset.S
+    │   │       ├── strncmp.S
+    │   │       └── div64.c
