@@ -1,9 +1,0 @@
-; arch/x86/runtime/go_startup/asm_functions.s
-; Support function for Go runtime: asmHLT
-
-    .code32
-    .section .text
-    .global asmHLT
-asmHLT:
-    hlt
-    ret

@@ -1,8 +1,0 @@
-rooster-os/arch/x86/runtime/go_startup/
-├── entry.go        # Go entry point, calls kernel_main
-└── asm_startup.s   # Minimal assembler stub for _start 
-
-rooster-os/arch/x86/runtime/rs_runtime/
-├── entry.S         # Minimal assembler stub for _start
-└── rt.rs           # Rust runtime init + panic handler
-
